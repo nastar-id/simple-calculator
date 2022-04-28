@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form class="box">
+      <input type="text" name="sum">
+      <div class="buttons">
+        <div class="first-line">
+          <button type="button" id="values" value="/"><i class="fas fa-divide"></i></button>
+          <button type="button" id="values" value="*"><i class="fas fa-times"></i></button>
+          <button type="button" id="values" value="-"><i class="fas fa-minus"></i></button>
+          <button type="button" id="values" value="+"><i class="fas fa-plus"></i></button>
+        </div>
+        <div class="sec-line">
+          <button type="button" id="values" value="1">1</button>
+          <button type="button" id="values" value="2">2</button>
+          <button type="button" id="values" value="3">3</button>
+          <button type="button" id="values" value="4">4</button>
+        </div>
+        <div class="thrd-line">
+          <button type="button" id="values" value="5">5</button>
+          <button type="button" id="values" value="6">6</button>
+          <button type="button" id="values" value="7">7</button>
+          <button type="button" id="values" value="8">8</button>
+        </div>
+        <div class="frth-line">
+          <button type="button" id="values" value="9">9</button>
+          <button type="button" class="decimal" id="values" value=".">.</button>
+          <button type="button" id="values" value="0">0</button>
+          <button type="button" id="delete"><i class="fas fa-backspace"></i></button>
+        </div>
+        <div class="fifth-line">
+          <button type="button" id="clear">AC</button>
+          <button type="button" id="equals"><i class="fas fa-equals"></i></button>
+        </div>
+      </div>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
